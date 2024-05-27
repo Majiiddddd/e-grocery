@@ -219,7 +219,8 @@ body{
 /* category */
 
 #category,
-#popular-products
+#popular-products,
+#popular-bundle-pack
 {
     display: flex;
     flex-direction: column;
@@ -379,5 +380,27 @@ font-size: 1.3rem;
 
 }
 
+
+/* popular-bundle-pack */
+
+#popular-bundle-pack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1150px;
+    margin: 50px auto;
+    padding: 60px 0px 20px 0px;
+    border-radius:20px ;
+    background-color: #ecf7ee;
+    color: #f3f3f3;
+
+}
+
+.product.container,
+.product-heading{
+    max-width: 1000px;
+    width: 100%;
+}
 
 
